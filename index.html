@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobMatch AI - Tu futuro laboral</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 font-sans text-slate-800">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <i class="fa-solid fa-robot text-blue-600 text-2xl mr-2"></i>
+                    <span class="font-bold text-xl tracking-tight">JobMatch <span class="text-blue-600">AI</span></span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="empresas.html" class="text-gray-500 hover:text-blue-600">Para Empresas</a>
+                    <a href="login.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Subir CV</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-gradient-to-r from-blue-900 to-slate-900 text-white py-20">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Deja que la IA encuentre tu trabajo ideal</h1>
+            <p class="text-lg text-blue-100 mb-8">Nuestro algoritmo analiza tus habilidades y las conecta con ofertas ocultas.</p>
+            
+            <div class="bg-white p-2 rounded-full shadow-lg flex items-center max-w-2xl mx-auto">
+                <div class="pl-4 text-gray-400"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <input type="text" placeholder="Ej: 'Soy diseñador UX senior y busco remoto...'" class="w-full p-3 rounded-full text-gray-800 focus:outline-none">
+                <button class="bg-blue-500 hover:bg-blue-600 text-white rounded-full px-8 py-3 font-medium transition">
+                    Analizar
+                </button>
+            </div>
+            <p class="mt-4 text-sm text-blue-200"><i class="fa-solid fa-wand-magic-sparkles mr-1"></i> Puedes escribir en lenguaje natural</p>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <div class="lg:col-span-1">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="font-bold text-lg mb-4">Análisis de tu Perfil</h3>
+                
+                <div class="mb-6">
+                    <div class="flex justify-between text-sm mb-1">
+                        <span>Calidad del CV</span>
+                        <span class="font-bold text-green-600">85%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div class="bg-green-500 h-2 rounded-full" style="width: 85%"></div>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-2">La IA sugiere mejorar la sección de "Idiomas".</p>
+                </div>
+
+                <div class="space-y-3">
+                    <h4 class="font-medium text-gray-700">Habilidades Detectadas</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm">Python</span>
+                        <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm">SQL</span>
+                        <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm">Data Science</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:col-span-2 space-y-4">
+            <h2 class="text-2xl font-bold mb-6">Mejores coincidencias para ti</h2>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition flex flex-col md:flex-row gap-4 relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-bl-lg">
+                    <i class="fa-solid fa-bolt mr-1"></i> 98% Match
+                </div>
+
+                <div class="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center text-2xl font-bold text-gray-400">
+                    G
+                </div>
+                <div class="flex-1">
+                    <h3 class="text-xl font-bold text-gray-800">Data Scientist Senior</h3>
+                    <p class="text-gray-600">Google • Remoto (Chile)</p>
+                    <div class="mt-3 text-sm text-gray-500">
+                        <p class="line-clamp-2">Buscamos un experto en ML. Tu perfil coincide porque tienes 5 años de experiencia en Python y has trabajado con TensorFlow...</p>
+                    </div>
+                    <div class="mt-4 flex gap-3">
+                        <a href="detalle.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700">Aplicar con 1 click</a>
+                        <button class="border border-gray-300 text-gray-600 px-4 py-2 rounded-lg text-sm hover:bg-gray-50">Ver análisis IA</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition flex flex-col md:flex-row gap-4 relative overflow-hidden">
+                 <div class="absolute top-0 right-0 bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-bl-lg">
+                    <i class="fa-solid fa-bolt mr-1"></i> 92% Match
+                </div>
+                <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center text-2xl font-bold text-indigo-500">
+                    M
+                </div>
+                <div class="flex-1">
+                    <h3 class="text-xl font-bold text-gray-800">Ingeniero de Prompt AI</h3>
+                    <p class="text-gray-600">Microsoft • Santiago, Chile</p>
+                    <div class="mt-3 text-sm text-gray-500">
+                        <p class="line-clamp-2">Requieres inglés avanzado y conocimientos en LLMs. Tu CV indica nivel C1 de inglés.</p>
+                    </div>
+                    <div class="mt-4 flex gap-3">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700">Aplicar con 1 click</button>
+                        <button class="border border-gray-300 text-gray-600 px-4 py-2 rounded-lg text-sm hover:bg-gray-50">Ver análisis IA</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const botonAnalizar = document.querySelector('button.bg-blue-500'); 
+        const inputBusqueda = document.querySelector('input[type="text"]');
+
+        botonAnalizar.addEventListener('click', () => {
+            if(inputBusqueda.value.trim() === "") {
+                alert("Por favor, escribe tus habilidades o el trabajo que buscas.");
+                inputBusqueda.focus(); 
+                return;
+            }
+
+            const textoOriginal = botonAnalizar.innerHTML;
+            botonAnalizar.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Analizando...';
+            botonAnalizar.classList.add('opacity-75', 'cursor-not-allowed');
+            
+            setTimeout(() => {
+                botonAnalizar.innerHTML = textoOriginal;
+                botonAnalizar.classList.remove('opacity-75', 'cursor-not-allowed');
+                
+                alert(`¡Análisis completado!\n\nHemos encontrado coincidencias para: "${inputBusqueda.value}"\n(Aquí se actualizarían los resultados en una versión real)`);
+            }, 2000);
+        });
+    });
+</script>
+</body>
+</html>
